@@ -21,7 +21,7 @@ RegisterNetEvent('qb-anticheat:server:banPlayer', function(reason)
         2145913200,
         'Anti-Cheat'
     })
-    DropPlayer(src, "You have been banned for cheating. Check our Discord for more information: " .. QBCore.Config.Server.discord)
+    DropPlayer(src, "You have been banned by our anti cheat software. Open a ticket in our Discord for help: " .. QBCore.Config.Server.Discord)
 end)
 
 -- Fake events --
